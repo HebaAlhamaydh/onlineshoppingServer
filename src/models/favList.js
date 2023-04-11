@@ -6,12 +6,7 @@ const favList = (sequelize, DataTypes) =>
       type: DataTypes.BOOLEAN,
       defaultValue: false,
     },
-    // userID: {
-    //   type: DataTypes.INTEGER,
-    // },
-    // itemID: {
-    //   type: DataTypes.INTEGER,
-    // },
+
   });
 
 module.exports = favList;

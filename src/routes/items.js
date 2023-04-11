@@ -34,7 +34,7 @@ async function handleCreate(req, res) {
   const tokenId = req.user.id;
   const obj = req.body;
 
-    if (req.body.userId === tokenId ) {
+    if (tokenId === parseInt(req.body.userId) ) {
       let newRecord = await items.create(obj);
       res.status(201).json(newRecord);
     } else {

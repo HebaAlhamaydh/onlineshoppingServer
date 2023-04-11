@@ -5,12 +5,7 @@ const comments = (sequelize, DataTypes) =>
     comment: {
       type: DataTypes.STRING,
     },
-    // userID: {
-    //   type: DataTypes.INTEGER,
-    // },
-    // itemsID: {
-    //   type: DataTypes.INTEGER,
-    // },
+  
   });
 
 module.exports = comments;

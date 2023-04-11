@@ -9,12 +9,7 @@ const cart = (sequelize, DataTypes) =>
     amount: { type: DataTypes.INTEGER,
         defaultValue: 0,
     },
-    // userID: {
-    //   type: DataTypes.INTEGER,
-    // },
-    // itemID: {
-    //   type: DataTypes.INTEGER,
-    // },
+
   });
 
 module.exports = cart;
